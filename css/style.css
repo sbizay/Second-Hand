@@ -1,0 +1,267 @@
+.btni
+{
+	padding: 0px 10px !important;
+}
+.navbar
+{
+	padding: 2px 12px;
+}
+
+.connect
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.connect li
+{
+	float: right;
+
+}
+
+.connect li a
+{
+	display: block;
+	color: black;
+}
+.fb
+{
+	margin-left: 8px;
+}
+
+/*search*/
+.form-inline .form-control
+{
+	width: 599px !important; 
+	border-radius: 0px !important; 
+}
+
+.bg-dark
+{
+	background-color: #5de1f0 !important;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.ad-top
+{
+	height: 260px;
+}
+.cardi
+{
+	background-color: #5de1f0 !important;
+	font-weight: bold !important;
+	text-align: center !important;
+}
+
+
+.category a
+{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.category p
+{
+	font-size: 13px;
+}
+
+
+/*login csss*/
+.login
+{
+	background-color: #5de1f0;
+	padding: 33px;
+	border-radius: 8px;
+
+}
+/*signin*/
+
+.signup
+{
+	background-color: #5de1f0;
+	padding: 33px;
+	border-radius: 8px;
+
+}
+
+.jumbotron-custom
+{
+	padding-top: 8px !important;
+}
+
+.jumbotron-custom p
+{
+	font-size: 4vw;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+ 
+	 .form-inline .form-control
+	{
+		width: 399px !important; 
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+ 
+	 .form-inline .formi
+	{
+		width: 210px !important;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		height: 30px !important;
+	}
+	.form-inline .inputn
+	{
+		margin-top: 8px;
+		margin-bottom: 8px;
+		height: 30px !important;
+	}
+	.logins
+	{
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+}
+@media only screen and (max-width: 486px) {
+ 
+	 .form-inline .form-control
+	{
+		width: 285px !important; 
+	}
+	.bg-dark
+	{
+		background-color: white !important;
+	}
+	.head
+	{
+		display: none !important;
+	}
+
+}
+@media only screen and (max-width: 570px) {
+
+	.category p
+	{
+		display: none;
+	}
+	.footer-custom
+	 {
+	 	padding: 2px 12px;
+	 }
+}
+#hamro-card-image{
+  		margin: 0px 5px;
+  		background-repeat: no-repeat;
+  		background-size: contain;
+  		background-position: center;
+  		height: 200px;width: auto;
+  		
+  }
+ #hamro-card-body
+  		{
+  			padding: .25rem 1.25rem;
+  			text-align: center;
+  		}
+#title-id
+{
+	color:darkblue;
+	text-decoration: none;
+}
+#like-id
+{
+	color: black;
+}
+#like-id:visited
+{
+	color: #5de1f0;
+}
+.main-color
+{
+	background-color: #5de1f0 !important;
+}
+.view-all-btn
+{
+	color: white;
+	font-size: 1.1rem;
+	background-color: #5de1f0 !important;	
+}
+
+
+.footer-custom
+{
+	padding: 42px 12px;
+}
+#scroll-to-top
+{
+	display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+
+  
+}
+#plus-btn
+{
+	display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 55%;
+  color: green;
+  background-color: white;
+  
+}
+@media only screen and (max-width: 486px) {
+ 
+	 #card-outer{
+	 	width: 11rem !important;
+	 	padding-left: 0px;	
+	 	padding-top: 0px;
+	 	margin-left: 0px;
+	 	margin-right: 0px;
+	 }
+	 #scroll-to-top
+	 {
+	 	display: none !important;
+
+	 }
+	 #plus-btn
+	 {
+	 	display: block;
+	 }
+
+	 
+
+
+}
+@media only screen and (max-width: 400px) {
+ 
+	 #card-outer{
+	 	width: 10rem !important;
+	 	padding-left: 0px;
+	 	padding-top: 0px;
+	 	margin-left: 0px;
+	 	margin-right: 0px;
+	 }
+
+
+}
